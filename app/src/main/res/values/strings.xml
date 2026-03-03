@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">UPI Offline Assistant</string>
+
+    <!-- About Screen -->
+    <string name="about_description">UPI Offline Assistant is an open-source Android application that allows users to scan UPI QR codes offline and initiate telecom-based USSD (*99#) payments without internet.</string>
+    <string name="about_features">• Offline QR scanning\n• Extract UPI ID and amount\n• Automatic clipboard copy\n• Launch *99# dialer\n• Step-by-step payment guidance\n• No internet permission\n• No tracking\n• No data storage</string>
+    <string name="about_open_source">This project is open source and licensed under the Apache License 2.0.</string>
+    <string name="about_privacy_note">This application does NOT process payments. It does NOT store UPI PIN or transaction data. USSD service availability depends on telecom operator and bank support.</string>
+    <string name="about_version_label">Version</string>
+    <string name="about_features_title">Features</string>
+    <string name="about_open_source_title">Open Source</string>
+    <string name="about_privacy_title">Privacy &amp; Disclaimer</string>
+    <string name="btn_github">View on GitHub</string>
+    <string name="btn_telegram">Join Telegram</string>
+    <string name="btn_about">About</string>
+    <string name="home_subtitle">Pay via USSD (*99#) without internet.\nScan any UPI QR code to get started.</string>
+    <string name="btn_scan_qr">Scan QR (Offline UPI)</string>
+    <string name="offline_badge">✓ Works offline · No internet required</string>
+
+    <!-- Scanner -->
+    <string name="scan_title">Scan UPI QR</string>
+    <string name="scan_instruction">Point camera at a UPI QR code</string>
+    <string name="camera_permission_rationale">Camera access is required to scan QR codes</string>
+    <string name="btn_back">Back</string>
+
+    <!-- Confirmation -->
+    <string name="confirm_title">Confirm Payment</string>
+    <string name="label_pay_to">Pay To</string>
+    <string name="label_upi_id">UPI ID</string>
+    <string name="label_amount">Amount</string>
+    <string name="hint_enter_amount">Enter Amount</string>
+    <string name="currency_format">₹ %1$s</string>
+    <string name="btn_pay_ussd">Pay via USSD (*99#)</string>
+    <string name="confirm_security_note">🔒 Your UPI PIN is never captured or stored by this app.</string>
+    <string name="toast_upi_id_copied">UPI ID copied to clipboard. Paste it in USSD when prompted.</string>
+    <string name="toast_dial_fallback">Call permission denied — please dial *99# manually and tap call.</string>
+
+    <!-- USSD Instructions -->
+    <string name="ussd_title">USSD Payment Steps</string>
+    <string name="ussd_subtitle">Follow these steps in your phone\'s dialer after *99# connects</string>
+    <string name="ussd_step1">Step 1 — Select option 1 (Send Money)</string>
+    <string name="ussd_step2">Step 2 — Enter UPI ID: %1$s</string>
+    <string name="ussd_step2_clipboard">Step 2 — Enter UPI ID: %1$s
+(Long press input field and paste — it has been copied automatically)</string>
+    <string name="ussd_clipboard_copied_badge">✔ UPI ID copied automatically</string>
+    <string name="ussd_step3_with_amount">Step 3 — Enter Amount: ₹ %1$s</string>
+    <string name="ussd_step3_no_amount">Step 3 — Enter the payment amount</string>
+    <string name="ussd_step4">Step 4 — Enter your UPI PIN to confirm</string>
+    <string name="ussd_sms_disclaimer">📱 Transaction confirmation will be received via SMS from your bank. This app does not verify or track transactions.</string>
+    <string name="ussd_security_note">This app does not replace official UPI apps. No payment data is stored.</string>
+    <string name="btn_done">Done</string>
+
+    <!-- Errors -->
+    <string name="error_camera_permission_denied">Camera permission denied. Cannot scan QR codes.</string>
+    <string name="error_camera_unavailable">Camera is unavailable on this device.</string>
+    <string name="error_invalid_qr">Invalid QR: Not a UPI payment code.</string>
+</resources>

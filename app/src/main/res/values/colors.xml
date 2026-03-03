@@ -1,0 +1,30 @@
+<resources>
+    <!-- Dark background palette -->
+    <color name="bg_dark">#0F1117</color>
+    <color name="bg_scanner">#000000</color>
+    <color name="scanner_overlay">#CC000000</color>
+
+    <!-- Card -->
+    <color name="card_bg">#1A1D27</color>
+    <color name="card_stroke">#2A2D3E</color>
+    <color name="divider">#2A2D3E</color>
+
+    <!-- Text -->
+    <color name="text_primary">#F0F2FF</color>
+    <color name="text_secondary">#7A7F9A</color>
+    <color name="text_secondary_light">#AAAACC</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Accent - Indigo -->
+    <color name="accent_indigo">#5C6BC0</color>
+    <color name="accent_indigo_light">#9FA8DA</color>
+
+    <!-- Accent - Green (success) -->
+    <color name="accent_green">#4CAF82</color>
+
+    <!-- Accent - Amber (warning/disclaimer) -->
+    <color name="accent_amber">#FFB74D</color>
+
+    <!-- Disclaimer card -->
+    <color name="disclaimer_bg">#1F1A10</color>
+</resources>

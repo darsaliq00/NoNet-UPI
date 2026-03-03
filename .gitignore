@@ -1,0 +1,38 @@
+# Built artifacts
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Build directories
+build/
+.gradle/
+captures/
+out/
+
+# Local configuration
+local.properties
+*.properties
+!gradle.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+
+# Kotlin incremental compilation
+.kotlin/
+
+# Profiling
+*.hprof
+
+# Signing keys — NEVER commit keystores
+*.jks
+*.keystore
+
+# NDK
+obj/
+.externalNativeBuild/
+.cxx/
